@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Calculadora NGDPI</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css">
     <style>
         button,
         hr,
@@ -112,7 +111,7 @@
         [type=reset],
         [type=submit],
         button {
-            -webkit-appearance-: button
+            -webkit-appearance: button
         }
 
         [type=button]::-moz-focus-inner,
@@ -151,7 +150,7 @@
         }
 
         [type=search] {
-            -webkit-appearance-: textfield;
+            -webkit-appearance: textfield;
             outline-offset: -2px
         }
 
@@ -198,16 +197,17 @@
             font-family: 'Digital-7', sans-serif;
         }
 
-        #calculadora-chupim {
+        #calculadora-ngdpi {
             margin: 0 auto;
         } 
     </style>
 </head>
 
 <body>
+
     <div class="outer">
         <div class="middle">
-            <svg id="calculadora-chupim" version="1.1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;" xmlns="http://www.w3.org/2000/svg"
+            <svg id="calculadora-ngdpi" version="1.1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;" xmlns="http://www.w3.org/2000/svg"
                 xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="600px" height="600px" viewBox="0 0 600 600" enable-background="new 0 0 600 600"
                 xml:space="preserve">
                 <switch>
@@ -1770,14 +1770,14 @@
                                 />
                             </g>
                         </g>
+                    </g>
+                </switch>
             </svg>
 
         </div>
     </div>
-
     <script src="scripts/controller/CalcController.js"></script>
     <script src="scripts/calculator.js"></script>
-   
 </body>
 
 </html>
